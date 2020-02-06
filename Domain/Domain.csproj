@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\Interfaces\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Specification\" />
+    <Folder Include="OrderBys\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Slabcode.Core" Version="1.5.30" />
+  </ItemGroup>
+
+</Project>
